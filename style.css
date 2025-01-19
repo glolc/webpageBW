@@ -136,7 +136,7 @@ footer {
   text-align: center;
   flex-direction: column;
   gap: 10px;
-  background-size: 600px;
+  background-size: 700px;
 }
 .titolo h1 {
   font-size: 20pt;
@@ -153,7 +153,8 @@ a {
 
 .blocchi {
   flex-direction: column;
-  margin-left: 20px;
+  margin: auto;
+  margin-left: 10px
 }
 
 .secondacornice, .terzacornice {
@@ -163,19 +164,19 @@ a {
 .text1 {
   position: absolute;
   top: 240px;
-  left: 85px;
+  left: 75px;
 }
 
 .text2 {
   position: absolute;
   top: 1250px;
-  left: 85px;
+  left: 75px;
 }
 
 .text3 {
   position: absolute;
   top: 2230px;
-  left: 85px;
+  left: 75px;
 }
 
 footer {
