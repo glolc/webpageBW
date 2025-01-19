@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box; /* il comportamento di default è content-box, con border-box, larghezza e altezza includono anche il padding e i bordi, rendendo più intutivo il calcolo delle dimensioni */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  width: 420px;
+  width: 420px;
+  height: 443px;
+  object-fit: cover;
+}
+
+
+header {
+  display: flex;
+  background-color: #455623;
+  color: white;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titolo h1 {
+  font-size: 30pt;
+  margin: 0;
+}
+.titolo h4 {
+  font-size: 20pt;
+  font-style: italic;
+  margin: 0;
+}
+
+.navigazione ul {
+  display: flex; 
+  list-style: none; 
+  gap: 40px; 
+}
+
+.navigazione li a {
+  text-decoration: none; 
+  font-weight: bold;
+  color: white; 
+}
+
+
+
+.maininfo {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+
+.text1 {
+  position: absolute;
+  max-width: 335px;
+  font-size: 16pt;
+  left: 210px;
+  top: 285px;
+}
+.primotit {
+  color: #455623;
+}
+
+
+.text2 {
+  position: absolute;
+  max-width: 335px;
+  font-size: 16pt;
+  left: 210px;
+  top: 850px;
+
+}
+.secondotit {
+  color: #455623;
+}
+
+.text3 {
+  position: absolute;
+  max-width: 335px;
+  font-size: 16pt;
+  left: 210px;
+  top: 1350px;
+
+}
+.terzotit {
+  color: #455623;
+}
+
+
+
+
+
+.text1, .text2, .text3 {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+.blocchi {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+.tre {
+  margin-bottom: 200px;
+}
+
+footer {
+  font-size: 15pt;
+  color: #455623;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+@media (max-width:600px) /* o la misura che volete */  {
+ header {
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.titolo h1 {
+  font-size: 20pt;
+  margin: 0;
+}
+.titolo h4 {
+  font-size: 10pt;
+  font-style: italic;
+  margin: 0;
+}
+a {
+  font-size: 12pt;
+}
+
+.blocchi {
+  flex-direction: column;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.secondacornice, .terzacornice {
+  margin-top: 60px;
+}
+
+.text1 {
+  position: absolute;
+  top: 240px;
+  left: 85px;
+}
+
+.text2 {
+  position: absolute;
+  top: 1250px;
+  left: 85px;
+}
+
+.text3 {
+  position: absolute;
+  top: 2230px;
+  left: 85px;
+}
+
+footer {
+  font-size: 12pt;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+}
