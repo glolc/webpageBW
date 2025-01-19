@@ -136,6 +136,7 @@ footer {
   text-align: center;
   flex-direction: column;
   gap: 10px;
+  background-size: 600px;
 }
 .titolo h1 {
   font-size: 20pt;
@@ -153,7 +154,6 @@ a {
 .blocchi {
   flex-direction: column;
   margin: auto;
-  margin-left: 50px;
 }
 
 .secondacornice, .terzacornice {
