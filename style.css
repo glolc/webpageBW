@@ -136,7 +136,7 @@ footer {
   text-align: center;
   flex-direction: column;
   gap: 10px;
-  background-size: 700px;
+  margin: 0;
 }
 .titolo h1 {
   font-size: 20pt;
