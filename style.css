@@ -52,7 +52,7 @@ header {
   margin: 0;
 }
 .titolo h4 {
-  font-size: 20pt;
+  font-size: 18pt;
   font-style: italic;
   margin: 0;
 }
@@ -68,6 +68,10 @@ p {
 
 .text1, .text2, .text3 {
 width: 400px;
+}
+
+h3 {
+  margin-bottom: 15px;
 }
 
 .blocchi {
