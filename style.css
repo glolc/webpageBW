@@ -60,6 +60,7 @@ header {
 h3 {
   color: #455623;
   font-size: 18pt;
+  margin-bottom: 15px;
 }
 
 p {
@@ -68,10 +69,6 @@ p {
 
 .text1, .text2, .text3 {
 width: 400px;
-}
-
-h3 {
-  margin-bottom: 15px;
 }
 
 .blocchi {
