@@ -12,6 +12,17 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
   padding: 0;
 }
 
+.navigazione ul {
+  display: flex; 
+  list-style: none; 
+  gap: 40px; 
+}
+
+.navigazione li a {
+  text-decoration: none; 
+  font-weight: bold;
+  color: white; 
+}
 
 .maininfo {
   max-width: 1000px;
@@ -27,12 +38,11 @@ img {
   object-fit: cover;
 }
 
-
 header {
   display: flex;
   background-color: #455623;
   color: white;
-  padding: 20px;
+  padding: 10px;
   justify-content: space-between;
   align-items: center;
 }
@@ -47,82 +57,34 @@ header {
   margin: 0;
 }
 
-.navigazione ul {
-  display: flex; 
-  list-style: none; 
-  gap: 40px; 
-}
-
-.navigazione li a {
-  text-decoration: none; 
-  font-weight: bold;
-  color: white; 
-}
-
-
-
-.text1 {
-  position: absolute;
-  max-width: 335px;
-  font-size: 16pt;
-  left: 210px;
-  top: 285px;
-}
-.primotit {
+h3 {
   color: #455623;
+  font-size: 18pt;
 }
 
-
-.text2 {
-  position: absolute;
-  max-width: 335px;
-  font-size: 16pt;
-  left: 210px;
-  top: 850px;
-
+p {
+  font-size: 14pt;
 }
-.secondotit {
-  color: #455623;
-}
-
-.text3 {
-  position: absolute;
-  max-width: 335px;
-  font-size: 16pt;
-  left: 210px;
-  top: 1350px;
-
-}
-.terzotit {
-  color: #455623;
-}
-
 
 .text1, .text2, .text3 {
-  flex: 1;
-  padding: 20px;
+width: 400px;
 }
-
-
 
 .blocchi {
   display: flex;
-  align-items: flex-start;
-  gap: 50px;
-  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* spazio tra testo e immagine */
+  padding-top: 50px;
 }
 
-.tre {
-  margin-bottom: 200px;
-}
 
 footer {
-  font-size: 15pt;
-  color: #455623;
+  padding-top: 100px;
+  padding-bottom: 30px;                       
+  color: #455623;           
   text-align: center;
-  margin-bottom: 30px;
 }
-
 
 
 
@@ -151,30 +113,9 @@ a {
 .blocchi {
   flex-direction: column;
   margin: auto;
-  margin-left: 10px
 }
 
-.secondacornice, .terzacornice {
-  margin-top: 60px;
-}
 
-.text1 {
-  position: absolute;
-  top: 240px;
-  left: 75px;
-}
-
-.text2 {
-  position: absolute;
-  top: 1250px;
-  left: 75px;
-}
-
-.text3 {
-  position: absolute;
-  top: 2230px;
-  left: 75px;
-}
 
 footer {
   font-size: 12pt;
